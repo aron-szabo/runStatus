@@ -31,7 +31,7 @@ foreach($xml->facilities->areas->area as $area){
 		
 		$id=(string)$trail->attributes()->id;
 		if((string)$trail->attributes()->status == 'Open'){
-			$open=0;
+			$open=1;
 		}else{
 			$open=0;
 		}
