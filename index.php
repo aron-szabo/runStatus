@@ -122,25 +122,25 @@ $sec = "3600";
   <div id='mainContainer'>
     
     <div class='page notHidden' id='page1'>
-      <?=  makeTable($statusArrayLowerFrontSide,'lowerFrontSide','Lower Front Side');?>
-      <?=  makeTable($statusArrayUpperFrontSide,'upperFrontSide','Upper Front Side');?>
+      <?=  makeTable($statusArrayLowerFrontSide,'lowerFrontSide','LOWER FRONT SIDE');?>
+      <?=  makeTable($statusArrayUpperFrontSide,'upperFrontSide','UPPER FRONT SIDE');?>
     </div>
    
     <div class='page isHidden' id='page2'>
-      <?=  makeTable($statusArrayPtarmigan,'ptarmigan','Ptarmigan');?>
-      <?=  makeTable($statusArrayEagleRidge1and2,'ER12',"Eagel Ridge 1 & 2");?>
-      <?=  makeTable($statusArrayEagleRidge3,'ER3','Eagle Ridge 3');?>
+      <?=  makeTable($statusArrayPtarmigan,'ptarmigan','PTARMIGAN');?>
+      <?=  makeTable($statusArrayEagleRidge1and2,'ER12',"EAGLE RIDGE 1 & 2");?>
+      <?=  makeTable($statusArrayEagleRidge3,'ER3','EAGLE RIDGE 3');?>
     </div>
 
     <div class='page isHidden' id='page3'>
-      <?=  makeTable($statusArrayParadiseBowl,'paradiseBowl','Paradise Bowl');?>
-      <?=  makeTable($statusArrayEagleRidge6and7,'ER67','Eagle Ridge 6 & 7');?>
-      <?=  makeTable($statusArraySaddleBackBowl,'saddleBackBowl','Saddleback Bowl');?>
+      <?=  makeTable($statusArrayParadiseBowl,'paradiseBowl','PARADISE BOWL');?>
+      <?=  makeTable($statusArrayEagleRidge6and7,'ER67','EAGLE RIDGE 6 & 7');?>
+      <?=  makeTable($statusArraySaddleBackBowl,'saddleBackBowl','SADDLE BACK BOWL');?>
     </div>
 
     <div class='page isHidden' id='page4'>
-      <?=  makeTable($statusArrayWhiteHorn1,'whiteHorn1','WhiteHorn 1');?>
-      <?=  makeTable($statusArrayWhiteHorn2,'whiteHorn2','WhiteHorn 2');?>
+      <?=  makeTable($statusArrayWhiteHorn1,'whiteHorn1','WHITEHORN 1');?>
+      <?=  makeTable($statusArrayWhiteHorn2,'whiteHorn2','WHITEHORN 2');?>
     </div>
 
   </div>
